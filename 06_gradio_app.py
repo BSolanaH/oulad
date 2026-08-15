@@ -1,9 +1,6 @@
 """
 06_gradio_app.py — Demo visual: detección de riesgo de abandono (OULAD)
-
-Para Hugging Face Spaces: subir este archivo renombrado como app.py
-junto con datos/modelo_catboost.joblib y un requirements.txt específico
-(sin gunicorn, sin flask — solo gradio, catboost, pandas, numpy, joblib).
+Desplegado como segundo Web Service en Render (start command: python 06_gradio_app.py).
 
 Diseño: 19 features de entrada (igual que la Flask API).
 Las features derivadas 'regularidad' y 'entrego_algo' se calculan internamente.
@@ -218,4 +215,5 @@ with gr.Blocks(title="OULAD — Riesgo de Abandono") as demo:
     """)
 
 if __name__ == "__main__":
-    demo.launch()
+    port = int(os.environ.get("PORT", 7860))
+    demo.launch(server_name="0.0.0.0", server_port=port)

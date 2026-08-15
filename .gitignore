@@ -27,6 +27,11 @@ envtfm/
 00_Propuestas-empresas-DESCARTADAS/
 01_Guias_TFM/
 
+# ── Documentos internos de trabajo ───────────────────────────────────────────
+ESTADO_TFM.md
+ESTRUCTURA_MEMORIA.md
+Propuesta_TFM_Belen.md
+
 # ── Sistema operativo ─────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db

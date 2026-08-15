@@ -1,0 +1,33 @@
+# ── Datos crudos (demasiado grandes para git) ─────────────────────────────────
+datos/OULAD/
+datos/df_modelo.csv
+
+# ── Informes de perfilado (pesados, generados en notebooks) ───────────────────
+datos/profile_*.html
+
+# ── Artefactos de Jupyter ─────────────────────────────────────────────────────
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+notebooks/catboost_info/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Entornos virtuales ────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+envtfm/
+
+# ── Carpetas administrativas / no relevantes al producto ─────────────────────
+00_Propuestas-empresas-DESCARTADAS/
+01_Guias_TFM/
+
+# ── Sistema operativo ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

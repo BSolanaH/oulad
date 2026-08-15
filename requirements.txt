@@ -1,0 +1,10 @@
+# ── Flask API (Render) ────────────────────────────────────────────────────────
+flask>=2.3
+gunicorn>=21.0
+pandas>=1.5
+numpy>=1.24
+joblib>=1.2
+catboost==1.2.10
+
+# ── Gradio demo (Hugging Face Spaces) ─────────────────────────────────────────
+gradio>=4.0
